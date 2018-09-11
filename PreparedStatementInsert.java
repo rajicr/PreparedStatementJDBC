@@ -4,7 +4,7 @@ public class PreparedStatementInsert{
 	public static void main(String[] args)throws Exception{
 		Scanner sc=new Scanner(System.in);
 		Class.forName("com.mysql.jdbc.Driver");
-		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student","raji","Raji@1993");
+		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student",Username,Password);
 		String answer="y";
 		while(answer.equalsIgnoreCase("y")){
 		System.out.println("What do you want to do");
